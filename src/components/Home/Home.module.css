@@ -1,0 +1,21 @@
+#home {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    color: whitesmoke;
+   
+   
+  }
+  .welcome {
+    margin: 0 auto;
+    font-size: 5em;
+    line-height: 1.2em;
+    text-align: center;
+  }
+  .content {
+  
+    font-size: 1.3em;
+  }
+  #home > div {
+   margin-top: 1em;
+  }
