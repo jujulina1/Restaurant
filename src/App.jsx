@@ -7,6 +7,7 @@ import Footer from './components/Footer/Footer/Footer'
 import Home from './components/Home/Home'
 import About from './components/About/About'
 import Login from './components/Login/Login'
+import Register from './components/Register/Register'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,9 +20,10 @@ function App() {
       <main>
         {/* <Home /> */}
         {/* <About /> */}
-        <Login />
-        {/* <Menu /> */}
         {/* <Login /> */}
+        <Register />
+        {/* <Menu /> */}
+        
         {/* <Register /> */}
         {/* <Details /> */}
 
