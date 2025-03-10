@@ -8,6 +8,7 @@ import Home from './components/Home/Home'
 import About from './components/About/About'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
+import Menu from './components/Catalog/Menu/Menu'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -21,10 +22,10 @@ function App() {
         {/* <Home /> */}
         {/* <About /> */}
         {/* <Login /> */}
-        <Register />
-        {/* <Menu /> */}
-        
         {/* <Register /> */}
+    
+        <Menu />
+     
         {/* <Details /> */}
 
       </main>

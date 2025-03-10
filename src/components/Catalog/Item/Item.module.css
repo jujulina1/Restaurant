@@ -1,0 +1,42 @@
+.item {
+    border: 3px solid rgb(43, 43, 43);
+    border-radius: 10px ;
+    box-shadow: 0 0 1 0 black;
+    background-color: rgba(50, 49, 49, 0.759);
+    padding: 1.5em;
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    gap: 1em;
+ }
+.item > p {
+   
+   line-height: 0.8em;
+ }
+ 
+ 
+.item-image-container {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   flex: 1 1 auto;
+ 
+ 
+ }
+.item-image-container img {
+   
+   box-shadow: 0 0 4em 0 rgba(0, 0, 0, 0.928);
+   border-radius: 0.5em;
+   
+   
+ }
+ 
+.name-product {
+    align-self: center;
+    font-size: 1.1em;
+   
+    
+ }
+ .button-container {
+   margin-top: 2em;
+ }
