@@ -1,0 +1,55 @@
+/* ----------------ABOUT PAGE ----------------------------- */
+
+.about-page-cover{
+
+	padding: 3em 4em;
+	background: url(images/about-bg.jpg) no-repeat bottom center;
+	background-size: cover;
+  
+}
+.about-page-cover .container {
+  display: flex;
+  gap: 2em;
+  padding: 2em;
+}
+.about-image-container .img-fluid{
+	box-shadow: 20px 20px 0px #d65106;
+}
+.about-content-container {
+     
+     flex: 80% 1 1 ;
+     padding-bottom: 3em;
+     
+}
+.about-content-container h1 {
+  font-size: 2.2em;
+  line-height: 1em;
+}
+.about-content-container h1 span {
+  color: #d65106;
+}
+.about-content-container h4 {
+  font-size: 1.2em;
+}
+.about-content-container p {
+  font-size: 1.2em;
+  padding-bottom: 1em;
+  
+}
+.about-content-container .paragraphs p:last-child {
+  padding-bottom: 3em;
+ 
+}
+
+
+.about-page-comment {
+  color: whitesmoke;
+  text-align: center;
+  padding: 3em;
+  line-height: 1.5em;
+  font-size: 2em;
+}
+.about-page-comment p:last-child {
+    padding-top: 1em;
+    font-weight: bold;
+}
