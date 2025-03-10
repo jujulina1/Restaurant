@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+/* Reset */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *:after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+/* Typography */
+
+html {
+  font-size: 16px;
+  font-family: 'Nutino', sans-serif;
+  line-height: 1.5em;
+}
+
+body, table, input, textarea, button {
+  font: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 1em;
+  margin-bottom: 0.5em;
+}
+ul, ol {
+  padding-left: 1.5em;
+}
+
+
+
+
+body {
+  
+ 
+  overflow: auto;
+  min-width: 1290px;
+  min-height: 100dvh;
+  background-image: url(../public/images/slider-01.jpg);
+  
+}
+
+#wrapper {
+
+  height: 1000px;
+  position: relative;
+}
+
+.button {
+  text-decoration: none;
+  background-color: #d65106;
+  border-radius: 5px;
+  padding: 0.8em 1em;
+  color: whitesmoke;
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+ 
+}
+/* Main */
+
+main {
+    min-height: 100dvh;
+    border: 3px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10em;
+    
+  }
