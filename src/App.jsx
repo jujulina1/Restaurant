@@ -23,6 +23,7 @@ function App() {
         {/* <About /> */}
         {/* <Login /> */}
         {/* <Register /> */}
+      
     
         <Menu />
      
