@@ -70,6 +70,9 @@ body {
   letter-spacing: 0.1em;
  
 }
+a {
+  text-decoration: none;
+}
 /* Main */
 
 main {
@@ -80,4 +83,7 @@ main {
     justify-content: center;
     padding-top: 10em;
     
+  }
+  footer {
+    color: whitesmoke;
   }

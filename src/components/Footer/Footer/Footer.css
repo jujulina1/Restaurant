@@ -1,0 +1,101 @@
+#info {
+    display: flex;
+    gap: 1.2em;
+  
+    padding: 2em;
+    padding-bottom: 9em;
+    background-image: linear-gradient(rgba(4, 4, 4, 0.3), rgba(3, 3, 3, 0.37)), url('../public/images/footer-bg.jpg');
+    background-position: center;
+    background-size: cover;
+   
+  }
+ 
+  #info h3 {
+    border-bottom: 2px solid rgb(193, 129, 26);
+    padding-bottom: 0.5em;
+  }
+  #info section {
+     flex: 25% 1 1;
+  }
+  #info h3 {
+    font-size: 1.1em;
+    text-transform: uppercase;
+  }
+  
+  #info .column-01 p {
+    
+    font-size: 1em;
+  }
+  
+  
+  
+  #info .column-02 ul{
+  display: flex;
+  gap: 1em;
+  padding: 0;
+  
+  }
+  
+  #info .column-02 ul li {
+   
+  
+    background-color: whitesmoke;
+    border-radius: 5px;
+    list-style: none;
+    
+  }
+  #info .column-02 ul a {
+   
+    display: flex;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #d65106;
+  
+  }
+  
+  #info .column-02 ul i {
+  
+    align-self: center;
+    font-size: 1.2em;
+    margin: 0 auto;
+    text-align: center;
+    
+  }
+  
+  
+  #info .column-03 div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    line-height: 1.8em;
+  }
+  #info .column-03 div > p{
+     font-size: 1.3em;
+     
+  }
+  #info .column-04 div {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;
+    
+  }
+  #info .column-04 div > p {
+    font-size: 1em ;
+  }
+
+  #copyright{
+    width: 100%;
+    border-top: 2px solid rgb(193, 129, 26);
+    background-color: black;
+    position: fixed;
+    padding: 2.5em;
+    left: 0;
+    bottom: 0 ;
+    text-align: center;
+    
+  }
+
+  
