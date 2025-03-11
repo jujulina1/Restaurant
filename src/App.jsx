@@ -10,6 +10,7 @@ import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Menu from './components/Catalog/Menu/Menu'
 import Details from './components/Details/Details'
+import PageNotFound from './components/404/PageNotFound'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -27,7 +28,8 @@ function App() {
       
     
         {/* <Menu /> */}
-         <Details />
+         {/* <Details /> */}
+         <PageNotFound />
         {/* <Details /> */}
 
       </main>
