@@ -9,6 +9,7 @@ import About from './components/About/About'
 import Login from './components/Login/Login'
 import Register from './components/Register/Register'
 import Menu from './components/Catalog/Menu/Menu'
+import Details from './components/Details/Details'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -25,8 +26,8 @@ function App() {
         {/* <Register /> */}
       
     
-        <Menu />
-     
+        {/* <Menu /> */}
+         <Details />
         {/* <Details /> */}
 
       </main>
